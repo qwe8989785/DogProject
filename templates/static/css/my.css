@@ -1,0 +1,174 @@
+.myImg {
+	width: 400px;
+  	height: 400px;
+  	margin: 0 auto;
+}
+.myProduct {
+	width: 450px;
+  	height: 450px;
+  	margin: 0 auto;
+}
+.myProductList {
+	width: 200px;
+  	height: 200px;
+  	margin: 0 auto;
+}
+.myIcon {
+	width: 100px;
+  	height: 100px;
+  	margin: 0 auto;
+}
+
+.myProductCol{
+    width: 200px;
+    height: 300px;
+    text-align:center;
+}
+.myrow{
+  width: 500px; 
+  margin: 0 auto;
+}
+
+.myInput{
+	width: 300px;
+	margin: 0 auto;
+}
+
+.Description{
+	width: 300px;
+	height: 100px;
+	margin: 0 auto;
+}
+
+.mycol{
+	border:  5px solid #666;
+	border-radius: 50px;
+	width: 500px;
+	margin: 0 auto;
+	margin-bottom: 50px;
+	margin-top: 50px;
+}
+
+.myForm{
+	display: inline-block;
+    width: 60px;
+}
+.upload_cover {
+	position: relative;
+	width: 400px;
+	height: 400px;
+	text-align: center;
+	cursor: pointer;
+	background: #efefef;
+	border: 1px solid #595656;
+}
+#upload {
+	display: none;
+}
+.upload_icon {
+	font-weight: bold;
+	font-size: 300%;
+	position: absolute;
+	left: 0;
+	width: 100%;
+	top: 35%;
+}
+.delAvatar {
+	position: absolute;
+	right: 2px;
+	top: 2px;
+}
+
+.indexBtn{border:0;
+  background-color:#003C9D;
+  color:#fff;
+  border-radius:10px;
+  cursor:pointer;}
+
+.indexBtn:hover{
+  color:#003C9D;
+  background-color:#fff;
+  border:2px #003C9D solid;
+}
+
+.table tbody tr td{
+    vertical-align: middle;
+}
+
+.myLink{
+    height: 100%;
+    display: block;
+}
+.shadow{
+    margin-left: 15px;
+    transition-duration: 0.5s;
+}
+.shadow:hover{
+    -webkit-box-shadow: #ccc 0px 10px 10px;
+    -moz-box-shadow: #ccc 0px 10px 10px;
+    box-shadow: #ccc 0px 10px 10px;  
+}
+
+.dialogue{
+	width: 500px;
+	padding: 20px;
+	#box-shadow: 0 0 10px #3e92cc;
+	background-color: #f4f5f7;
+}
+.user{
+	display: flex;
+	align-items: flex-start;
+	margin-bottom: 20px;
+	font-family: 'Noto Sans TC', sans-serif;
+}
+.local {
+	justify-content: flex-end;
+}
+.user .avatar{
+	width: 60px;
+	text-align: center;
+	flex-shrink: 0;
+}
+.user .pic{
+	border-radius: 50%;
+	overflow: hidden;
+}
+.user .pic img{
+	width: 100%;
+	vertical-align: middle;
+}
+.user .txt{
+	background-color: #aaa;
+	padding: 16px;
+	border-radius: 10px;
+	position: relative;
+}
+.remote .txt{
+	margin-left: 20px;
+	margin-right: 80px;
+	color: #a1b4c5;
+	background-color: #fff;
+}
+.local .txt{
+	margin-right: 20px;
+	margin-left: 80px;
+	order: -1;
+	background-color: #3e92cc;
+	color: #FFF;
+}
+.remote .txt::before,
+.local .txt::before{
+	content: '';
+	position: absolute;
+	top: 20px;
+	border-top: 10px solid transparent;
+	border-bottom: 10px solid transparent;
+}
+.remote .txt::before{
+	border-right: 10px solid #fff;
+	left: -10px;
+}
+.local .txt::before{
+	border-left: 10px solid #3e92cc;
+	right: -10px;
+}
